@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: auto;
+    padding-top: 2em;
+    font-weight: 100;
+}
+nav a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 16px;
+}
+nav img:hover{
+    background-color: #fff;
+    border-radius:50%;
+    box-shadow: 0 0 0 3px #ffff;
+    
+}
+nav button{
+    background-color: rgb(48, 48, 252);
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5rem;
+}
+nav button:hover{
+    background-color:rgb(71, 71, 248);
+}
+main {
+    margin: 6.9em auto;
+    width: 50%;
+    text-align: center;
+}
+.search{ 
+    width: 35rem;
+    height: 10px;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(221, 220, 220);
+    padding: 1rem;
+    margin-top: 2em;
+}
+.btns button{
+    margin-top: 2em;
+    border: none;
+    margin-left: 1em;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    width: 10rem;
+    font-weight: 100;
+    background-color: rgba(250, 250, 255, 0.966);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+.btns button:hover,
+.btns button:focus,
+.btns button:active{
+    box-shadow: 1px 10px 10px -10px rgba(94, 94, 94, 0.5);
+    transform: scale(1);
+}
+.lang-btns{ 
+    display: inline-block;
+    font-weight: 100;
+    margin-bottom: 55px;
+}
+.lang-btns a{
+    text-decoration: none;
+    color: rgb(13, 13, 148);
+    font-weight: lighter;
+}
+.lang-btns a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(241, 241, 241);
+}
+.top{
+    padding: 1em;
+    color: grey;
+}
+.bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(194, 194, 194);
+}
+.bottom-left a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: grey;
+}
+.bottom-left a:hover{
+    text-decoration: underline;
+}
+.bottom-center a{
+   position: initial;
+   color: grey;
+   text-decoration: none;
+}
+.bottom-center a:hover{
+    text-decoration: underline;
+}
+.bottom-center img{
+    width: 13px;
+}
+.bottom-right a{
+    margin-left: 1em;
+    text-decoration: none;
+    color: grey;
+}
+.bottom-right:hover{
+    text-decoration: underline;
+}
