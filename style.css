@@ -76,7 +76,7 @@ main {
 .lang-btns{ 
     display: inline-block;
     font-weight: 100;
-    margin-bottom: 55px;
+    margin-bottom: 100px;
 }
 .lang-btns a{
     text-decoration: none;
