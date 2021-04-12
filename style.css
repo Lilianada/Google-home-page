@@ -6,6 +6,13 @@ body{
     padding: 0;
     font-size: 13px;
 }
+body, html{
+    height: 100%;
+    box-sizing: border-box;
+}
+html, body{
+    min-width: 400px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -44,6 +51,7 @@ main {
     margin: 6.9em auto;
     width: 50%;
     text-align: center;
+    height: fit-content;
 }
 .search{ 
     width: 35rem;
@@ -76,6 +84,7 @@ main {
 .lang-btns{ 
     display: inline-block;
     font-weight: 100;
+    margin-bottom: 55px;
 }
 .lang-btns a{
     text-decoration: none;
@@ -87,8 +96,6 @@ main {
 }
 footer{
     background-color: rgb(241, 241, 241);
-    position: absolute;
-    padding-bottom: 0;
 }
 .top{
     padding: 1em;
